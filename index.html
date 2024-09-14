@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Predictor Neural Network</title>
+    <!-- Synaptic Version 1.1.4 -->
+    <script src="./synaptic.min.js"></script>
+    <!-- Cytoscape Version 3.19.1 -->
+    <script src="./cytoscape.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Predictor Neural Network</h1>
+        <div class="controls">
+            <input type="color" id="colorPicker" value="#808080">
+            <div id="rgbDisplay">RGB: (255, 255, 255)</div>
+            <button id="modeToggle">Switch to Training Mode</button>
+            <select id="textColorSelect" style="display: none;">
+                <option value="black">Black Text</option>
+                <option value="white">White Text</option>
+            </select>
+            <button id="trainButton" style="display: none;">Train</button>
+        </div>
+        <div id="textPreview">
+            Sample Text
+        </div>
+        <div id="cy"></div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body {
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  background-color: #f0f0f0;
+  padding: 40px 10%;
+}
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    margin-bottom: 1rem;
+}
+.controls {
+    margin: 10px;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#colorPicker {
+    width: 100%;
+    height: 40px;
+}
+#textPreview {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+#modeToggle {
+    background-color: #2196F3;
+}
+#trainButton {
+    background-color: #FF9800;
+}
+#textColorSelect {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#cy {
+  width: 100%; 
+  height: 500px; 
+  border: 1px solid #ccc;
+  text-align: left;
+}
+#rgbDisplay {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
