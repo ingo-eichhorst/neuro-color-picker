@@ -57,12 +57,12 @@ These visual changes provide insight into how the network is learning and adapti
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/neural-network-color-predictor.git
+   git clone https://github.com/ingo-eichhorst/neuro-color-picker
    ```
 
 2. Navigate to the project directory:
    ```
-   cd neural-network-color-predictor
+   cd neuro-color-picker
    ```
 
 3. Start a local web server. For example, with Python:
@@ -74,7 +74,7 @@ These visual changes provide insight into how the network is learning and adapti
    npx http-server
    ```
 
-4. Open your web browser and navigate to `http://localhost:8000` (or whatever port your web server is using).
+4. Open your web browser and navigate to `http://localhost:8080` (or whatever port your web server is using).
 
 ## Contributing
 
@@ -90,7 +90,7 @@ Contributions are welcome! Here's how you can contribute:
 
 If you encounter a bug or have a feature request:
 
-1. Go to the [Issues](https://github.com/yourusername/neural-network-color-predictor/issues) page of the repository.
+1. Go to the [Issues](https://github.com/ingo-eichhorst/neuro-color-picker/issues) page of the repository.
 2. Click on "New Issue"
 3. Choose "Bug report" or "Feature request"
 4. Fill out the template with as much detail as possible
@@ -101,7 +101,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- [Synaptic.js](http://caza.la/synaptic) for the neural network implementation
+- [Synaptic.js](https://caza.la/synaptic) for the neural network implementation
 - [Cytoscape.js](https://js.cytoscape.org/) for the network visualization
 
 ## Future Improvements
@@ -111,4 +111,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - Allow users to adjust learning rate and other hyperparameters
 - Add a feature to export and import trained networks
 
-We hope this tool helps you gain insights into neural network training and inspires further exploration in the field of machine learning!
+I hope this tool helps you gain insights into neural network training and inspires further exploration in the field of machine learning!
